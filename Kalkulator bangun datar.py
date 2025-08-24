@@ -108,8 +108,16 @@ while True:
         print("Lingkaran tersebut memiliki KELILING sebesar",Keliling_C )
         print("Terima kasih sudah menggunakan kalkulator 😊")
         
+        
     else :
-        print("Harap pilih a, b, c atau d")
+        print("😊 Harap pilih a, b, c atau d")
+        ulang = input("Apakah Anda ingin menghitung lagi? (y/n): ")
+    if ulang.lower() != "y":
+        break
+        
+    ulang = input("Apakah Anda ingin menghitung lagi? (y/n): ")
+    if ulang.lower() != "y":
         print("Terima kasih sudah menggunakan kalkulator 😊")
         break
+    
         
